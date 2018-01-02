@@ -3,6 +3,7 @@ project(Client)
 
 set(CMAKE_CXX_STANDARD 11)
 
+find_package (Threads)
 add_executable(Client
         ../Commom/Libraries/Socket/Socket.cpp
         ../Commom/Libraries/Socket/ServerSocket.cpp
@@ -12,3 +13,5 @@ add_executable(Client
         ../Commom/Production/Source/Chat.cpp
         ../Commom/Production/Source/User.cpp
         Production/Source/Client.cpp)
+
+target_link_libraries(Client ${CMAKE_THREAD_LIBS_INIT})

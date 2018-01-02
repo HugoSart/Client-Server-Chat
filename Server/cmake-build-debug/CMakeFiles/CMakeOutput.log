@@ -631,3 +631,45 @@ make[1]: Leaving directory '/home/hugovs/Documents/Workspace/PureCPP/Client-Serv
     Feature record: CXX_FEATURE:0cxx_variable_templates
     Feature record: CXX_FEATURE:0cxx_variadic_macros
     Feature record: CXX_FEATURE:0cxx_variadic_templates
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/hugovs/Documents/Workspace/PureCPP/Client-Server/Server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_89574/fast"
+/usr/bin/make -f CMakeFiles/cmTC_89574.dir/build.make CMakeFiles/cmTC_89574.dir/build
+make[1]: Entering directory '/home/hugovs/Documents/Workspace/PureCPP/Client-Server/Server/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_89574.dir/CheckIncludeFile.c.o
+/usr/local/bin/mpicc    -o CMakeFiles/cmTC_89574.dir/CheckIncludeFile.c.o   -c /home/hugovs/Documents/Workspace/PureCPP/Client-Server/Server/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_89574
+/home/hugovs/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.3727.114/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_89574.dir/link.txt --verbose=1
+/usr/local/bin/mpicc      CMakeFiles/cmTC_89574.dir/CheckIncludeFile.c.o  -o cmTC_89574 
+make[1]: Leaving directory '/home/hugovs/Documents/Workspace/PureCPP/Client-Server/Server/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the pthread_create exist passed with the following output:
+Change Dir: /home/hugovs/Documents/Workspace/PureCPP/Client-Server/Server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cb08a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cb08a.dir/build.make CMakeFiles/cmTC_cb08a.dir/build
+make[1]: Entering directory '/home/hugovs/Documents/Workspace/PureCPP/Client-Server/Server/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cb08a.dir/CheckSymbolExists.c.o
+/usr/local/bin/mpicc    -o CMakeFiles/cmTC_cb08a.dir/CheckSymbolExists.c.o   -c /home/hugovs/Documents/Workspace/PureCPP/Client-Server/Server/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_cb08a
+/home/hugovs/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.3727.114/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cb08a.dir/link.txt --verbose=1
+/usr/local/bin/mpicc      CMakeFiles/cmTC_cb08a.dir/CheckSymbolExists.c.o  -o cmTC_cb08a 
+make[1]: Leaving directory '/home/hugovs/Documents/Workspace/PureCPP/Client-Server/Server/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+File /home/hugovs/Documents/Workspace/PureCPP/Client-Server/Server/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+

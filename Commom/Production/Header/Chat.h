@@ -10,7 +10,17 @@
 #include "User.h"
 #include <vector>
 #include <map>
+#include <fstream>
 #include "../../Libraries/Socket/ServerSocket.h"
+
+#define KNRM  "\x1B[0m"
+#define KRED  "\x1B[31m"
+#define KGRN  "\x1B[32m"
+#define KYEL  "\x1B[33m"
+#define KBLU  "\x1B[34m"
+#define KMAG  "\x1B[35m"
+#define KCYN  "\x1B[36m"
+#define KWHT  "\x1B[37m"
 
 using namespace std;
 typedef struct message {
@@ -24,7 +34,15 @@ typedef struct message {
     }
 
     string toString() {
+        if (nickname == "/info")
+            return content;
         return nickname + ": " + content;
+    }
+
+    string toStringColor() {
+        if (nickname == "/info")
+            return content;
+        return KBLU + nickname + KNRM + ": " + content;
     }
 
 } Message;
@@ -33,15 +51,18 @@ class Chat {
 public:
     map<ServerSocket, User> users;
     vector<Message> messages;
+    vector<ServerSocket*> watchList;
+    string chatName;
 
     int port;
 
-    Chat(int port);
+    Chat(int port, string chatName);
 
     string messagesToString();
     void start();
 
     static void connect(string host, int port, string nickname);
+    static void watch(string host, int port);
 
 };
 
