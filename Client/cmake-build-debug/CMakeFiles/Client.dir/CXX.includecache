@@ -95,6 +95,8 @@ utility
 -
 algorithm
 -
+pthread.h
+-
 ../Header/Chat.h
 /home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Production/Header/Chat.h
 ../../Libraries/Socket/ServerSocket.h

@@ -58,7 +58,6 @@ public:
 
     Chat(int port, string chatName);
 
-    string messagesToString();
     void start();
 
     static void connect(string host, int port, string nickname);

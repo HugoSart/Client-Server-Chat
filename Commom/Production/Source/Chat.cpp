@@ -45,7 +45,7 @@ void *chat_thread(void *arg) {
 
             chat->messages.push_back(Message(user.getNickName(), data));
             cout << "  " << chat->chatName << " -> " << chat->messages.at(chat->messages.size() - 1).toStringColor() << KNRM << endl;
-            history << chat->chatName << " -> " << chat->messages.at(chat->messages.size() - 1).toString() << KNRM << endl;
+            history << chat->chatName << " -> " << chat->messages.at(chat->messages.size() - 1).toString() << endl;
             *serverSocket << "Mensagem recebida.";
 
         }
@@ -117,39 +117,29 @@ Chat::Chat(int port, string chatName) {
     this->chatName = std::move(chatName);
 }
 
-string Chat::messagesToString() {
-
-    string ret;
-    for (Message &m : this->messages) {
-        ret.append(m.nickname);
-        ret.append(": ");
-        ret.append(m.content);
-        ret.append("\n");
-    }
-
-    return ret;
-
-}
-
 void Chat::start() {
 
     try {
 
         ServerSocket server(port);
 
-        cout << "Servidor do chat criado com sucesso!" << endl;
-        cout << "=============================== " << chatName << " ===============================" << endl;
-        cout << endl;
+        cout << "Chat " << chatName << " criado com sucesso!" << endl;
+        //cout << "=============================== " << chatName << " ===============================" << endl;
 
         vector<pthread_t> tids;
 
+        // Cria um thread para receber comandos como console
         tids.push_back(pthread_t());
         pthread_create(&tids.back(), nullptr, console_thread, (void *) (new TArg(this, nullptr)));
 
         while (true) {
 
+            // Cria um socket para receber os clientes
             auto *newSocket = new ServerSocket();
+
+            // Espera até um novo cliente requisitar um acesso
             server.accept(*newSocket);
+
             string nickname;
             *newSocket >> nickname;
             *newSocket << chatName;
@@ -158,10 +148,10 @@ void Chat::start() {
 
             if (nickname == "/exit") {
                 break;
-            } else if (nickname == "/watch") {
+            } else if (nickname == "/watch") { // Modo de visualização
                 watchList.push_back(newSocket);
                 pthread_create(&tids.back(), nullptr, watch_thread, (void *) (new TArg(this, newSocket)));
-            } else {
+            } else { // Modo de escrita
                 users[*newSocket] = User(nickname);
                 pthread_create(&tids.back(), nullptr, chat_thread, (void *) (new TArg(this, newSocket)));
             }
@@ -182,11 +172,15 @@ void Chat::connect(string host, int port, string nickname) {
         string reply;
         try {
 
+            // Envia o nickname
             clientSocket << nickname;
+
+            // Recebe um sinal de sucesso
             clientSocket >> reply;
 
             if (nickname != "/exit") cout << "Você entrou no chat " << reply << " como " << nickname << endl;
 
+            // Loop para envio de mensagens, para quando o usuário digita /exit
             while (true) {
 
                 char message[200];
