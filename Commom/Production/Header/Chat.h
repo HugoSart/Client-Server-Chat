@@ -22,6 +22,8 @@
 #define KCYN  "\x1B[36m"
 #define KWHT  "\x1B[37m"
 
+#define LOG_PATH "all_history.txt"
+
 using namespace std;
 typedef struct message {
 

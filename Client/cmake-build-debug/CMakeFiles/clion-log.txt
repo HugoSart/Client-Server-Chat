@@ -1,4 +1,4 @@
-/home/hugovs/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.3727.114/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=/usr/local/bin/mpicc -DCMAKE_CXX_COMPILER=/usr/local/bin/mpic++ -G "CodeBlocks - Unix Makefiles" /home/hugovs/Documents/Workspace/PureCPP/Client-Server/Client
+/home/hugovs/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.3727.114/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=/usr/local/bin/mpicc -DCMAKE_CXX_COMPILER=/usr/local/bin/mpic++ -G "CodeBlocks - Unix Makefiles" /home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Client
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/hugovs/Documents/Workspace/PureCPP/Client-Server/Client/cmake-build-debug
+-- Build files have been written to: /home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Client/cmake-build-debug

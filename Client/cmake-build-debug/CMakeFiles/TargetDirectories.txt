@@ -1,3 +1,3 @@
-/home/hugovs/Documents/Workspace/PureCPP/Client-Server/Client/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/hugovs/Documents/Workspace/PureCPP/Client-Server/Client/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/hugovs/Documents/Workspace/PureCPP/Client-Server/Client/cmake-build-debug/CMakeFiles/Client.dir
+/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Client/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Client/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Client/cmake-build-debug/CMakeFiles/Client.dir

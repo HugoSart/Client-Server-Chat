@@ -6,10 +6,13 @@
 #include <algorithm>
 
 #include <pthread.h>
+#include <fcntl.h>
+
 #include "../Header/Chat.h"
 #include "../../Libraries/Socket/ServerSocket.h"
 #include "../../Libraries/Socket/SocketException.h"
 #include "../../Libraries/Socket/ClientSocket.h"
+#include "../../../Commom/Production/Header/Global.h"
 
 typedef struct targ {
 
@@ -31,10 +34,10 @@ void *chat_thread(void *arg) {
 
     User user = chat->users[*serverSocket];
 
-    cout << "  " << chat->chatName << " -> " << KGRN << user.getNickName() << " entrou no chat!" << KNRM << endl;
+    cout << chat->chatName << " -> " << KGRN << user.getNickName() << " entrou no chat!" << KNRM << endl;
     chat->messages.push_back(Message("/info", ("  " KGRN) + user.getNickName() + (" entrou no chat!" KNRM)));
 
-    ofstream history("log.txt", ofstream::app);
+    ofstream history(LOG_PATH, ofstream::app);
 
     try {
 
@@ -43,16 +46,24 @@ void *chat_thread(void *arg) {
             string data;
             *serverSocket >> data;
 
-            chat->messages.push_back(Message(user.getNickName(), data));
-            cout << "  " << chat->chatName << " -> " << chat->messages.at(chat->messages.size() - 1).toStringColor() << KNRM << endl;
-            history << chat->chatName << " -> " << chat->messages.at(chat->messages.size() - 1).toString() << endl;
+            Message mess = Message(user.getNickName(), data);
+            chat->messages.push_back(mess);
+
+            string str = chat->chatName + " -> " + mess.toStringColor();
+
+            // Manda na FIFO
+            int fd = open(FIFO, O_WRONLY);
+            write(fd, str.c_str(), FIFO_MAX_SIZE);
+            close(fd);
+
+            history << str;
             *serverSocket << "Mensagem recebida.";
 
         }
 
     } catch (SocketException &) {}
 
-    cout << "  " << chat->chatName << (" -> " KRED) << user.getNickName() + " saiu do chat." << KNRM << endl;
+    cout << chat->chatName << (" -> " KRED) << user.getNickName() + " saiu do chat." << KNRM << endl;
     chat->messages.push_back(Message("/info", ("  " KRED) + user.getNickName() + (" saiu do chat." KNRM)));
     delete serverSocket;
 
@@ -112,6 +123,25 @@ void *console_thread(void *arg) {
 
 }
 
+void *show_thread(void *arg) {
+
+    char buffer[FIFO_MAX_SIZE] = "\0";
+
+    while (true) {
+
+        // Pega da FIFO
+        int fd = open(FIFO, O_RDONLY);
+        read(fd, buffer, FIFO_MAX_SIZE);
+        close(fd);
+
+        cout << buffer << endl;
+
+    }
+
+    pthread_exit(nullptr);
+
+}
+
 Chat::Chat(int port, string chatName) {
     this->port = port;
     this->chatName = std::move(chatName);
@@ -132,9 +162,15 @@ void Chat::start() {
         tids.push_back(pthread_t());
         pthread_create(&tids.back(), nullptr, console_thread, (void *) (new TArg(this, nullptr)));
 
+        if (pid != CHILD_PID) {
+            // Cria um thread para escutar a fifo
+            tids.push_back(pthread_t());
+            pthread_create(&tids.back(), nullptr, show_thread, nullptr);
+        }
+
         while (true) {
 
-            // Cria um socket para receber os clientes
+            // Cria um socket para receber um novo cliente
             auto *newSocket = new ServerSocket();
 
             // Espera até um novo cliente requisitar um acesso

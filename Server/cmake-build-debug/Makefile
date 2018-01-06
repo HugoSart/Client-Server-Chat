@@ -48,10 +48,10 @@ RM = /home/hugovs/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.3727.114/bi
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hugovs/Documents/Workspace/PureCPP/Client-Server/Server
+CMAKE_SOURCE_DIR = /home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Server
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hugovs/Documents/Workspace/PureCPP/Client-Server/Server/cmake-build-debug
+CMAKE_BINARY_DIR = /home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Server/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hugovs/Documents/Workspace/PureCPP/Client-Server/Server/cmake-build-debug/CMakeFiles /home/hugovs/Documents/Workspace/PureCPP/Client-Server/Server/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Server/cmake-build-debug/CMakeFiles /home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Server/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hugovs/Documents/Workspace/PureCPP/Client-Server/Server/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Server/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -150,140 +150,167 @@ Production/Source/Server.cpp.s:
 	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/Production/Source/Server.cpp.s
 .PHONY : Production/Source/Server.cpp.s
 
-home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Libraries/Socket/ClientSocket.o: home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Libraries/Socket/ClientSocket.cpp.o
+home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Libraries/Socket/ClientSocket.o: home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Libraries/Socket/ClientSocket.cpp.o
 
-.PHONY : home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Libraries/Socket/ClientSocket.o
-
-# target to build an object file
-home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Libraries/Socket/ClientSocket.cpp.o:
-	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Libraries/Socket/ClientSocket.cpp.o
-.PHONY : home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Libraries/Socket/ClientSocket.cpp.o
-
-home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Libraries/Socket/ClientSocket.i: home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Libraries/Socket/ClientSocket.cpp.i
-
-.PHONY : home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Libraries/Socket/ClientSocket.i
-
-# target to preprocess a source file
-home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Libraries/Socket/ClientSocket.cpp.i:
-	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Libraries/Socket/ClientSocket.cpp.i
-.PHONY : home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Libraries/Socket/ClientSocket.cpp.i
-
-home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Libraries/Socket/ClientSocket.s: home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Libraries/Socket/ClientSocket.cpp.s
-
-.PHONY : home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Libraries/Socket/ClientSocket.s
-
-# target to generate assembly for a file
-home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Libraries/Socket/ClientSocket.cpp.s:
-	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Libraries/Socket/ClientSocket.cpp.s
-.PHONY : home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Libraries/Socket/ClientSocket.cpp.s
-
-home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Libraries/Socket/ServerSocket.o: home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Libraries/Socket/ServerSocket.cpp.o
-
-.PHONY : home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Libraries/Socket/ServerSocket.o
+.PHONY : home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Libraries/Socket/ClientSocket.o
 
 # target to build an object file
-home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Libraries/Socket/ServerSocket.cpp.o:
-	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Libraries/Socket/ServerSocket.cpp.o
-.PHONY : home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Libraries/Socket/ServerSocket.cpp.o
+home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Libraries/Socket/ClientSocket.cpp.o:
+	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Libraries/Socket/ClientSocket.cpp.o
+.PHONY : home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Libraries/Socket/ClientSocket.cpp.o
 
-home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Libraries/Socket/ServerSocket.i: home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Libraries/Socket/ServerSocket.cpp.i
+home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Libraries/Socket/ClientSocket.i: home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Libraries/Socket/ClientSocket.cpp.i
 
-.PHONY : home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Libraries/Socket/ServerSocket.i
+.PHONY : home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Libraries/Socket/ClientSocket.i
 
 # target to preprocess a source file
-home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Libraries/Socket/ServerSocket.cpp.i:
-	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Libraries/Socket/ServerSocket.cpp.i
-.PHONY : home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Libraries/Socket/ServerSocket.cpp.i
+home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Libraries/Socket/ClientSocket.cpp.i:
+	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Libraries/Socket/ClientSocket.cpp.i
+.PHONY : home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Libraries/Socket/ClientSocket.cpp.i
 
-home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Libraries/Socket/ServerSocket.s: home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Libraries/Socket/ServerSocket.cpp.s
+home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Libraries/Socket/ClientSocket.s: home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Libraries/Socket/ClientSocket.cpp.s
 
-.PHONY : home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Libraries/Socket/ServerSocket.s
+.PHONY : home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Libraries/Socket/ClientSocket.s
 
 # target to generate assembly for a file
-home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Libraries/Socket/ServerSocket.cpp.s:
-	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Libraries/Socket/ServerSocket.cpp.s
-.PHONY : home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Libraries/Socket/ServerSocket.cpp.s
+home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Libraries/Socket/ClientSocket.cpp.s:
+	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Libraries/Socket/ClientSocket.cpp.s
+.PHONY : home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Libraries/Socket/ClientSocket.cpp.s
 
-home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Libraries/Socket/Socket.o: home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Libraries/Socket/Socket.cpp.o
+home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Libraries/Socket/ServerSocket.o: home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Libraries/Socket/ServerSocket.cpp.o
 
-.PHONY : home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Libraries/Socket/Socket.o
+.PHONY : home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Libraries/Socket/ServerSocket.o
 
 # target to build an object file
-home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Libraries/Socket/Socket.cpp.o:
-	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Libraries/Socket/Socket.cpp.o
-.PHONY : home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Libraries/Socket/Socket.cpp.o
+home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Libraries/Socket/ServerSocket.cpp.o:
+	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Libraries/Socket/ServerSocket.cpp.o
+.PHONY : home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Libraries/Socket/ServerSocket.cpp.o
 
-home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Libraries/Socket/Socket.i: home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Libraries/Socket/Socket.cpp.i
+home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Libraries/Socket/ServerSocket.i: home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Libraries/Socket/ServerSocket.cpp.i
 
-.PHONY : home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Libraries/Socket/Socket.i
+.PHONY : home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Libraries/Socket/ServerSocket.i
 
 # target to preprocess a source file
-home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Libraries/Socket/Socket.cpp.i:
-	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Libraries/Socket/Socket.cpp.i
-.PHONY : home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Libraries/Socket/Socket.cpp.i
+home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Libraries/Socket/ServerSocket.cpp.i:
+	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Libraries/Socket/ServerSocket.cpp.i
+.PHONY : home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Libraries/Socket/ServerSocket.cpp.i
 
-home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Libraries/Socket/Socket.s: home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Libraries/Socket/Socket.cpp.s
+home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Libraries/Socket/ServerSocket.s: home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Libraries/Socket/ServerSocket.cpp.s
 
-.PHONY : home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Libraries/Socket/Socket.s
+.PHONY : home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Libraries/Socket/ServerSocket.s
 
 # target to generate assembly for a file
-home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Libraries/Socket/Socket.cpp.s:
-	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Libraries/Socket/Socket.cpp.s
-.PHONY : home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Libraries/Socket/Socket.cpp.s
+home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Libraries/Socket/ServerSocket.cpp.s:
+	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Libraries/Socket/ServerSocket.cpp.s
+.PHONY : home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Libraries/Socket/ServerSocket.cpp.s
 
-home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Production/Source/Chat.o: home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Production/Source/Chat.cpp.o
+home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Libraries/Socket/Socket.o: home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Libraries/Socket/Socket.cpp.o
 
-.PHONY : home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Production/Source/Chat.o
+.PHONY : home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Libraries/Socket/Socket.o
 
 # target to build an object file
-home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Production/Source/Chat.cpp.o:
-	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Production/Source/Chat.cpp.o
-.PHONY : home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Production/Source/Chat.cpp.o
+home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Libraries/Socket/Socket.cpp.o:
+	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Libraries/Socket/Socket.cpp.o
+.PHONY : home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Libraries/Socket/Socket.cpp.o
 
-home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Production/Source/Chat.i: home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Production/Source/Chat.cpp.i
+home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Libraries/Socket/Socket.i: home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Libraries/Socket/Socket.cpp.i
 
-.PHONY : home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Production/Source/Chat.i
+.PHONY : home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Libraries/Socket/Socket.i
 
 # target to preprocess a source file
-home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Production/Source/Chat.cpp.i:
-	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Production/Source/Chat.cpp.i
-.PHONY : home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Production/Source/Chat.cpp.i
+home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Libraries/Socket/Socket.cpp.i:
+	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Libraries/Socket/Socket.cpp.i
+.PHONY : home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Libraries/Socket/Socket.cpp.i
 
-home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Production/Source/Chat.s: home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Production/Source/Chat.cpp.s
+home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Libraries/Socket/Socket.s: home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Libraries/Socket/Socket.cpp.s
 
-.PHONY : home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Production/Source/Chat.s
+.PHONY : home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Libraries/Socket/Socket.s
 
 # target to generate assembly for a file
-home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Production/Source/Chat.cpp.s:
-	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Production/Source/Chat.cpp.s
-.PHONY : home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Production/Source/Chat.cpp.s
+home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Libraries/Socket/Socket.cpp.s:
+	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Libraries/Socket/Socket.cpp.s
+.PHONY : home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Libraries/Socket/Socket.cpp.s
 
-home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Production/Source/User.o: home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Production/Source/User.cpp.o
+home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Production/Source/Chat.o: home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Production/Source/Chat.cpp.o
 
-.PHONY : home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Production/Source/User.o
+.PHONY : home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Production/Source/Chat.o
 
 # target to build an object file
-home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Production/Source/User.cpp.o:
-	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Production/Source/User.cpp.o
-.PHONY : home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Production/Source/User.cpp.o
+home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Production/Source/Chat.cpp.o:
+	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Production/Source/Chat.cpp.o
+.PHONY : home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Production/Source/Chat.cpp.o
 
-home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Production/Source/User.i: home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Production/Source/User.cpp.i
+home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Production/Source/Chat.i: home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Production/Source/Chat.cpp.i
 
-.PHONY : home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Production/Source/User.i
+.PHONY : home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Production/Source/Chat.i
 
 # target to preprocess a source file
-home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Production/Source/User.cpp.i:
-	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Production/Source/User.cpp.i
-.PHONY : home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Production/Source/User.cpp.i
+home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Production/Source/Chat.cpp.i:
+	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Production/Source/Chat.cpp.i
+.PHONY : home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Production/Source/Chat.cpp.i
 
-home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Production/Source/User.s: home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Production/Source/User.cpp.s
+home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Production/Source/Chat.s: home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Production/Source/Chat.cpp.s
 
-.PHONY : home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Production/Source/User.s
+.PHONY : home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Production/Source/Chat.s
 
 # target to generate assembly for a file
-home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Production/Source/User.cpp.s:
-	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Production/Source/User.cpp.s
-.PHONY : home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Production/Source/User.cpp.s
+home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Production/Source/Chat.cpp.s:
+	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Production/Source/Chat.cpp.s
+.PHONY : home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Production/Source/Chat.cpp.s
+
+home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Production/Source/Global.o: home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Production/Source/Global.cpp.o
+
+.PHONY : home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Production/Source/Global.o
+
+# target to build an object file
+home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Production/Source/Global.cpp.o:
+	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Production/Source/Global.cpp.o
+.PHONY : home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Production/Source/Global.cpp.o
+
+home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Production/Source/Global.i: home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Production/Source/Global.cpp.i
+
+.PHONY : home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Production/Source/Global.i
+
+# target to preprocess a source file
+home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Production/Source/Global.cpp.i:
+	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Production/Source/Global.cpp.i
+.PHONY : home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Production/Source/Global.cpp.i
+
+home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Production/Source/Global.s: home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Production/Source/Global.cpp.s
+
+.PHONY : home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Production/Source/Global.s
+
+# target to generate assembly for a file
+home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Production/Source/Global.cpp.s:
+	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Production/Source/Global.cpp.s
+.PHONY : home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Production/Source/Global.cpp.s
+
+home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Production/Source/User.o: home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Production/Source/User.cpp.o
+
+.PHONY : home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Production/Source/User.o
+
+# target to build an object file
+home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Production/Source/User.cpp.o:
+	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Production/Source/User.cpp.o
+.PHONY : home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Production/Source/User.cpp.o
+
+home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Production/Source/User.i: home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Production/Source/User.cpp.i
+
+.PHONY : home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Production/Source/User.i
+
+# target to preprocess a source file
+home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Production/Source/User.cpp.i:
+	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Production/Source/User.cpp.i
+.PHONY : home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Production/Source/User.cpp.i
+
+home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Production/Source/User.s: home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Production/Source/User.cpp.s
+
+.PHONY : home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Production/Source/User.s
+
+# target to generate assembly for a file
+home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Production/Source/User.cpp.s:
+	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Production/Source/User.cpp.s
+.PHONY : home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Production/Source/User.cpp.s
 
 # Help Target
 help:
@@ -297,21 +324,24 @@ help:
 	@echo "... Production/Source/Server.o"
 	@echo "... Production/Source/Server.i"
 	@echo "... Production/Source/Server.s"
-	@echo "... home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Libraries/Socket/ClientSocket.o"
-	@echo "... home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Libraries/Socket/ClientSocket.i"
-	@echo "... home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Libraries/Socket/ClientSocket.s"
-	@echo "... home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Libraries/Socket/ServerSocket.o"
-	@echo "... home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Libraries/Socket/ServerSocket.i"
-	@echo "... home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Libraries/Socket/ServerSocket.s"
-	@echo "... home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Libraries/Socket/Socket.o"
-	@echo "... home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Libraries/Socket/Socket.i"
-	@echo "... home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Libraries/Socket/Socket.s"
-	@echo "... home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Production/Source/Chat.o"
-	@echo "... home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Production/Source/Chat.i"
-	@echo "... home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Production/Source/Chat.s"
-	@echo "... home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Production/Source/User.o"
-	@echo "... home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Production/Source/User.i"
-	@echo "... home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Production/Source/User.s"
+	@echo "... home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Libraries/Socket/ClientSocket.o"
+	@echo "... home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Libraries/Socket/ClientSocket.i"
+	@echo "... home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Libraries/Socket/ClientSocket.s"
+	@echo "... home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Libraries/Socket/ServerSocket.o"
+	@echo "... home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Libraries/Socket/ServerSocket.i"
+	@echo "... home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Libraries/Socket/ServerSocket.s"
+	@echo "... home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Libraries/Socket/Socket.o"
+	@echo "... home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Libraries/Socket/Socket.i"
+	@echo "... home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Libraries/Socket/Socket.s"
+	@echo "... home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Production/Source/Chat.o"
+	@echo "... home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Production/Source/Chat.i"
+	@echo "... home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Production/Source/Chat.s"
+	@echo "... home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Production/Source/Global.o"
+	@echo "... home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Production/Source/Global.i"
+	@echo "... home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Production/Source/Global.s"
+	@echo "... home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Production/Source/User.o"
+	@echo "... home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Production/Source/User.i"
+	@echo "... home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Production/Source/User.s"
 .PHONY : help
 
 

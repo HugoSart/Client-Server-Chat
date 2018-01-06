@@ -18,6 +18,7 @@ char nick[200] = DEFAULT_NICK;
 
 bool viewMode = false;
 
+
 int parseArgs(int argc, char *argv[]) {
     opterr = 0;
     int c;

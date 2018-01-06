@@ -10,8 +10,10 @@ add_executable(Client
         ../Commom/Libraries/Socket/ClientSocket.cpp
         ../Commom/Production/Header/Chat.h
         ../Commom/Production/Header/User.h
+        ../Commom/Production/Header/Global.h
         ../Commom/Production/Source/Chat.cpp
         ../Commom/Production/Source/User.cpp
+        ../Commom/Production/Source/Global.cpp
         Production/Source/Client.cpp)
 
 target_link_libraries(Client ${CMAKE_THREAD_LIBS_INIT})

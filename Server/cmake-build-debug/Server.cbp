@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/hugovs/Documents/Workspace/PureCPP/Client-Server/Server/cmake-build-debug"/>
+				<Option working_dir="/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Server/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/hugovs/Documents/Workspace/PureCPP/Client-Server/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hugovs/Documents/Workspace/PureCPP/Client-Server/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/hugovs/Documents/Workspace/PureCPP/Client-Server/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hugovs/Documents/Workspace/PureCPP/Client-Server/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/hugovs/Documents/Workspace/PureCPP/Client-Server/Server/cmake-build-debug"/>
+				<Option working_dir="/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Server/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/hugovs/Documents/Workspace/PureCPP/Client-Server/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hugovs/Documents/Workspace/PureCPP/Client-Server/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/hugovs/Documents/Workspace/PureCPP/Client-Server/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hugovs/Documents/Workspace/PureCPP/Client-Server/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/hugovs/Documents/Workspace/PureCPP/Client-Server/Server/cmake-build-debug"/>
+				<Option working_dir="/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Server/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/hugovs/Documents/Workspace/PureCPP/Client-Server/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hugovs/Documents/Workspace/PureCPP/Client-Server/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/hugovs/Documents/Workspace/PureCPP/Client-Server/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hugovs/Documents/Workspace/PureCPP/Client-Server/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Server">
-				<Option output="/home/hugovs/Documents/Workspace/PureCPP/Client-Server/Server/cmake-build-debug/Server" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/hugovs/Documents/Workspace/PureCPP/Client-Server/Server/cmake-build-debug"/>
+				<Option output="/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Server/cmake-build-debug/Server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Server/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -54,15 +54,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/hugovs/Documents/Workspace/PureCPP/Client-Server/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 Server"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hugovs/Documents/Workspace/PureCPP/Client-Server/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/hugovs/Documents/Workspace/PureCPP/Client-Server/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hugovs/Documents/Workspace/PureCPP/Client-Server/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 Server"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Server/fast">
-				<Option output="/home/hugovs/Documents/Workspace/PureCPP/Client-Server/Server/cmake-build-debug/Server" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/hugovs/Documents/Workspace/PureCPP/Client-Server/Server/cmake-build-debug"/>
+				<Option output="/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Server/cmake-build-debug/Server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Server/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -77,47 +77,53 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/hugovs/Documents/Workspace/PureCPP/Client-Server/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 Server/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hugovs/Documents/Workspace/PureCPP/Client-Server/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/hugovs/Documents/Workspace/PureCPP/Client-Server/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hugovs/Documents/Workspace/PureCPP/Client-Server/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 Server/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Libraries/Socket/ClientSocket.cpp">
+		<Unit filename="/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Libraries/Socket/ClientSocket.cpp">
 			<Option target="Server"/>
 		</Unit>
-		<Unit filename="/home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Libraries/Socket/ClientSocket.h">
+		<Unit filename="/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Libraries/Socket/ClientSocket.h">
 			<Option target="Server"/>
 		</Unit>
-		<Unit filename="/home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Libraries/Socket/ServerSocket.cpp">
+		<Unit filename="/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Libraries/Socket/ServerSocket.cpp">
 			<Option target="Server"/>
 		</Unit>
-		<Unit filename="/home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Libraries/Socket/ServerSocket.h">
+		<Unit filename="/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Libraries/Socket/ServerSocket.h">
 			<Option target="Server"/>
 		</Unit>
-		<Unit filename="/home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Libraries/Socket/Socket.cpp">
+		<Unit filename="/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Libraries/Socket/Socket.cpp">
 			<Option target="Server"/>
 		</Unit>
-		<Unit filename="/home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Libraries/Socket/Socket.h">
+		<Unit filename="/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Libraries/Socket/Socket.h">
 			<Option target="Server"/>
 		</Unit>
-		<Unit filename="/home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Production/Header/Chat.h">
+		<Unit filename="/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Production/Header/Chat.h">
 			<Option target="Server"/>
 		</Unit>
-		<Unit filename="/home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Production/Header/User.h">
+		<Unit filename="/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Production/Header/Global.h">
 			<Option target="Server"/>
 		</Unit>
-		<Unit filename="/home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Production/Source/Chat.cpp">
+		<Unit filename="/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Production/Header/User.h">
 			<Option target="Server"/>
 		</Unit>
-		<Unit filename="/home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Production/Source/User.cpp">
+		<Unit filename="/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Production/Source/Chat.cpp">
 			<Option target="Server"/>
 		</Unit>
-		<Unit filename="/home/hugovs/Documents/Workspace/PureCPP/Client-Server/Server/Production/Source/Server.cpp">
+		<Unit filename="/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Production/Source/Global.cpp">
 			<Option target="Server"/>
 		</Unit>
-		<Unit filename="/home/hugovs/Documents/Workspace/PureCPP/Client-Server/Server/CMakeLists.txt">
+		<Unit filename="/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Production/Source/User.cpp">
+			<Option target="Server"/>
+		</Unit>
+		<Unit filename="/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Server/Production/Source/Server.cpp">
+			<Option target="Server"/>
+		</Unit>
+		<Unit filename="/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Server/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

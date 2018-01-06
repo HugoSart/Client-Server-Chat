@@ -6,31 +6,31 @@
 
 #IncludeRegexTransform: 
 
-/home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Libraries/Socket/ClientSocket.cpp
+/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Libraries/Socket/ClientSocket.cpp
 ../../../Commom/Libraries/Socket/ClientSocket.h
-/home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Libraries/Socket/ClientSocket.h
+/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Libraries/Socket/ClientSocket.h
 ../../../Commom/Libraries/Socket/SocketException.h
-/home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Libraries/Socket/SocketException.h
+/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Libraries/Socket/SocketException.h
 
-/home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Libraries/Socket/ClientSocket.h
+/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Libraries/Socket/ClientSocket.h
 Socket.h
-/home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Libraries/Socket/Socket.h
+/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Libraries/Socket/Socket.h
 
-/home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Libraries/Socket/ServerSocket.cpp
+/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Libraries/Socket/ServerSocket.cpp
 ServerSocket.h
-/home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Libraries/Socket/ServerSocket.h
+/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Libraries/Socket/ServerSocket.h
 SocketException.h
-/home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Libraries/Socket/SocketException.h
+/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Libraries/Socket/SocketException.h
 
-/home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Libraries/Socket/ServerSocket.h
+/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Libraries/Socket/ServerSocket.h
 Socket.h
-/home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Libraries/Socket/Socket.h
+/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Libraries/Socket/Socket.h
 
-/home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Libraries/Socket/Socket.cpp
+/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Libraries/Socket/Socket.cpp
 Socket.h
-/home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Libraries/Socket/Socket.h
+/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Libraries/Socket/Socket.h
 string.h
-/home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Libraries/Socket/string.h
+/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Libraries/Socket/string.h
 string.h
 -
 errno.h
@@ -40,7 +40,7 @@ fcntl.h
 iostream
 -
 
-/home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Libraries/Socket/Socket.h
+/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Libraries/Socket/Socket.h
 sys/types.h
 -
 sys/socket.h
@@ -56,15 +56,15 @@ string
 arpa/inet.h
 -
 
-/home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Libraries/Socket/SocketException.h
+/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Libraries/Socket/SocketException.h
 string
 -
 
-/home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Production/Header/Chat.h
+/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Production/Header/Chat.h
 iostream
 -
 User.h
-/home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Production/Header/User.h
+/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Production/Header/User.h
 vector
 -
 map
@@ -72,41 +72,65 @@ map
 fstream
 -
 ../../Libraries/Socket/ServerSocket.h
-/home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Libraries/Socket/ServerSocket.h
+/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Libraries/Socket/ServerSocket.h
 
-/home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Production/Header/User.h
+/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Production/Header/Global.h
+semaphore.h
+-
+sys/wait.h
+-
+fcntl.h
+-
+sys/stat.h
+-
+
+/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Production/Header/User.h
 iostream
 -
 
-/home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Production/Source/Chat.cpp
+/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Production/Source/Chat.cpp
 utility
 -
 algorithm
 -
 pthread.h
 -
+fcntl.h
+-
 ../Header/Chat.h
-/home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Production/Header/Chat.h
+/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Production/Header/Chat.h
 ../../Libraries/Socket/ServerSocket.h
-/home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Libraries/Socket/ServerSocket.h
+/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Libraries/Socket/ServerSocket.h
 ../../Libraries/Socket/SocketException.h
-/home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Libraries/Socket/SocketException.h
+/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Libraries/Socket/SocketException.h
 ../../Libraries/Socket/ClientSocket.h
-/home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Libraries/Socket/ClientSocket.h
+/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Libraries/Socket/ClientSocket.h
+../../../Commom/Production/Header/Global.h
+/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Production/Header/Global.h
 
-/home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Production/Source/User.cpp
+/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Production/Source/Global.cpp
+../Header/Global.h
+/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Production/Header/Global.h
+
+/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Production/Source/User.cpp
 utility
 -
 ../Header/User.h
-/home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Production/Header/User.h
+/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Production/Header/User.h
 
-/home/hugovs/Documents/Workspace/PureCPP/Client-Server/Server/Production/Source/Server.cpp
+/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Server/Production/Source/Server.cpp
 iostream
 -
 semaphore.h
 -
 sys/wait.h
 -
+fcntl.h
+-
+sys/stat.h
+-
 ../../../Commom/Production/Header/Chat.h
-/home/hugovs/Documents/Workspace/PureCPP/Client-Server/Commom/Production/Header/Chat.h
+/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Production/Header/Chat.h
+../../../Commom/Production/Header/Global.h
+/home/hugovs/Documents/Workspace/CLionWorkspace/Client-Server/Commom/Production/Header/Global.h
 
